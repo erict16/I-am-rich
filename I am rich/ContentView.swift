@@ -10,13 +10,31 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Spacer().frame(height: 10)
+            Image("Flavien")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 350, height: 650)
+                .cornerRadius(20)
             
+            Spacer().frame(height: 30)
+            ZStack {
+                Button(action: {
+                    print("Button was tapped")
+                }) {
+                    Text("Sign in")
+                        .padding(20)
+                        .frame(width: 350, height: 60)
+                        .background(Color(.systemGray6))
+                        .foregroundColor(.black)
+                        .cornerRadius(20)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.gray, lineWidth: 1) // Set the border color and width
+                        )
+                }
+            }
         }
-        .padding()
     }
 }
 
@@ -25,3 +43,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
