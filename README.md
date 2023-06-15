@@ -1,10 +1,13 @@
 # 🥸 I-am-rich
 
-![mockup](https://github.com/erictan16/I-am-rich/assets/83531295/e3bbc4a5-e9fd-41c3-861a-2187431e652d)
-
+## 🥑 Preview
+<div align="center">
+  <img src="https://github.com/erictan16/I-am-rich/assets/83531295/9fdbccc6-0b61-40e8-bb7f-b7234f2ef26c" alt="Image" width="400">
+</div>
 
 ## 🔮 Features
 This iOS app is a simple project created for fun and as a learning experience. It represents my first attempt at developing an iOS app. The app consists of two main features: a sign-in button and a placeholder function.
+
 
 
 ## 🦀 Placeholder Function
