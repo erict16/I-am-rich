@@ -22,7 +22,7 @@ struct ContentView: View {
                 Button(action: {
                     print("Button was tapped")
                 }) {
-                    Text("Sign in")
+                    Text("I am rich!")
                         .padding(20)
                         .frame(width: 350, height: 60)
                         .background(Color(.systemGray6))
