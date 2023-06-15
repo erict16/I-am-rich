@@ -1,11 +1,11 @@
 # 🥸 I-am-rich
-This iOS app is a simple project created for fun and as a learning experience. It represents my first attempt at developing an iOS app. The app consists of two main features: a sign-in button and a placeholder function.
-![smartmockups_liwjxuul](https://github.com/erictan16/I-am-rich/assets/83531295/870d68b2-5249-4598-b583-bbfe96e99459)
+
+![mockup](https://github.com/erictan16/I-am-rich/assets/83531295/e3bbc4a5-e9fd-41c3-861a-2187431e652d)
 
 
 ## 🔮 Features
-Sign-In Button
-The app includes a sign-in button that triggers an action when tapped. The action associated with the button can be customized to suit your needs. In the provided code, the action simply prints a message to the console.
+This iOS app is a simple project created for fun and as a learning experience. It represents my first attempt at developing an iOS app. The app consists of two main features: a sign-in button and a placeholder function.
+
 
 ## 🦀 Placeholder Function
 In addition to the sign-in button, the app also includes a placeholder function. This function can be modified and expanded upon to add more functionality to the app as desired. Currently, it serves as an example of how additional features can be implemented.
